@@ -1,0 +1,155 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #e5e5e5;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    width:4px;
+}
+::-webkit-scrollbar-track{
+    background-color:#bee1eb;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#0496a9;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color:#016470
+}
+::-webkit-scrollbar-thumb:active {
+    background-color:#0496a9
+}
+
+div{
+    display: inline-block;
+}
+
+span{
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.col-rows-1{
+    width: 100%;
+}
+.col-rows-2{
+    width: 50%;
+}
+.col-rows-3{
+    width: 33%;
+}
+.col-rows-4{
+    width: 66%;
+}
+
+.head-grid{
+    width: 100%;
+    padding: 10px 20px;
+    height: 280px;
+    background-color: white;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.self-resume{
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.plan{
+    width: 97%;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.plan-row{
+    width: 97%;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.plan-title{
+    height: 40px;
+    text-align: left;
+    width: 100%;
+    line-height: 40px;
+    background-color: #0496a9;
+}
+
+.plan-title span{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.text-indet{
+    text-indent: 28px;
+    display: block;
+}
+
+.plan-body{
+    width: 97%;
+    padding: 5px 20px;
+}
+
+.plan-body-rows{
+    width: 100%;
+}
+
+.plan-body-rows span{
+    width: 33%;
+}
+
+.body-grid{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.plan-body-title{
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.back-Animation{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.content{
+    width: 1024px;
+    position: absolute;
+    top: 0;
+}
+
+.print{
+    position: fixed;
+    right: 10px;
+    top: 10%;
+    z-index: 999;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #0496a9;
+}
+
+.print:hover{
+    cursor: pointer;
+}
+
+.print img{
+    width: 30px;
+    height: 30px;
+}
